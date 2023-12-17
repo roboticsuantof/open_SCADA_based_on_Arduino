@@ -8,6 +8,8 @@ El Sistema de Control y Adquisición de Datos (SCADA) implementado para un inver
 
 # Instalación Programas
 
+Los siguientes programas se deben descargar e instalar en su última versión desde sus paginas oficiales:
+
 1. Arduino IDE: Se utiliza para la programación de la placa Arduino, actuando como el corazón del sistema al interactuar con los sensores y actuadores instalados en el invernadero. Los sensores capturan datos cruciales como temperatura, humedad, luminosidad, niveles de CO2, entre otros, mientras que los actuadores controlan elementos como sistemas de riego, ventilación y calefacción.
 
 2. XAMPP Control Panel: Actúa como el repositorio central de datos, almacenando la información adquirida por los sensores y generando un historial completo de las condiciones del invernadero. La estructura de la base de datos se ha diseñado para permitir consultas eficientes, análisis de tendencias y generación de informes.
@@ -17,7 +19,7 @@ El Sistema de Control y Adquisición de Datos (SCADA) implementado para un inver
 
 # Programación
 
-En esta fase del sistema es necesaria la programación, configuración e instalación de los diferentes archivos necesarios para su funcionamiento, por lo que se deben descargar los siguientes archivos para su correcto funcionamiento.
+En esta fase del sistema, es necesario la configuración de los archivos de programación para su posterior instalación en las carpetas correspondientes, por lo que se deben descargar los siguientes archivos:
 
 1. Arduino: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
 2. Xampp: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
