@@ -103,14 +103,14 @@ $result = mysqli_query($connString, "SELECT id, F01T01SHum, F02T02STemp, ..., F0
 
 Ejemplo: 
 ```
-            {   name: 'F01T01SHum',
+            {   name: 'F'F0nT0nS(nombresensor)',
                 data: [
                 <?php
-                    $query = " select F01T01SHum from tabla_sensor order by id desc limit 10 ";
+                    $query = " select 'F0nT0nS(nombresensor) from tabla_sensor order by id desc limit 10 ";
                     $resultados = mysqli_query($connection, $query);
                     while($rows = mysqli_fetch_array($resultados)){
                         ?>
-                            <?php echo $rows["F01T01SHum"]?>,
+                            <?php echo $rows["'F0nT0nS(nombresensor)"]?>,
                         <?php
                     }
                 ?>]
