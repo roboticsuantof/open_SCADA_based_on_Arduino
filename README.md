@@ -66,7 +66,7 @@ datos[3]=analogRead(A2)
 .
 datos[n]=analogRead(An)
 ```
-Para poder visualizar mediante el monitor serial del programa de Arduino IDE, derás replicar el siguiente codigo las veces que sea necesario.
+Para poder visualizar mediante el monitor serial del programa de Arduino IDE, deberás replicar el siguiente codigo las veces que sea necesario.
 ```
 Serial.print("Datos enviados:")
 Serial.println(datos[1])
