@@ -29,7 +29,7 @@ En esta fase del sistema, es necesario la configuración de los archivos de prog
 
 1. Descargar e instalar programa de Arduino IDE.
 2. Abrir los archivos descargados (1) del apartado "# Programación" e insertar variables a medir.
-- [MaestroARD](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos. 
+- [“Master”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos. 
 Ejemplo:
 ```
 F01T01SHum=datos[1];
@@ -55,7 +55,7 @@ Donde "n" son los numeros de la ip que estan disponible y podemos seleccionar cu
 ```
 byte ip []={ 172, 16, 30, 207 }
 ```
-- [SlaveARD](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/SlaveARD): Para este caso es más sencillo, ya que solo declaramos las variables a medir mediante los canales analogicos de arduino. En este caso deberemos replicar los siguientes codigos según necesidad:
+- [“Slave”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/SlaveARD): Para este caso es más sencillo, ya que solo declaramos las variables a medir mediante los canales analogicos de arduino. En este caso deberemos replicar los siguientes codigos según necesidad:
 
 Para datos enviados:
 ```
