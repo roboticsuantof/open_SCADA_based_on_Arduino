@@ -39,7 +39,7 @@ F02T02STemp=datos[2];
 .
 F0nT0nS(nombresensor)=datos[n];
 ```
-Este mismo ejemplo replicarlo cada vez que se repita la variable en el código. Por otro lado, en este caso se le asigna una ip al arduino maestro que contiene un shield ethernet. Esta ip la podemos buscar de las disponibles analizadas por el programa Advanced IP Scanner indicado en el apartado de "#Instalación de Programas" punto 3. Este programa te muestra las ips que están siendo ocupadas en el rango indicado, por lo que si no aparece es porque está disponible.
+Este mismo ejemplo replicarlo cada vez que se repita la variable en el código. Por otro lado, en este caso se le asigna una ip al Arduino “Master” que contiene un shield ethernet. Esta ip la podemos buscar de las disponibles analizadas por el programa Advanced IP Scanner indicado en el apartado de "#Instalación de Programas" punto 3. Este programa te muestra las ips que están siendo ocupadas en el rango indicado, por lo que si no aparece es porque está disponible.
 
 Ejemplo:
 Insertamos la ip del servidor que siempre será la que aparezca de primera opción en el buscador del programa Advanced IP Scanner. En este caso es: 172. 16. 30. 201
