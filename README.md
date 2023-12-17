@@ -99,8 +99,7 @@ $display_heading = array('id'=>'ID', 'F01T01SHum'=> 'F01T01SHum', 'F02T02STemp'=
 
 $result = mysqli_query($connString, "SELECT id, F01T01SHum, F02T02STemp, ..., F0nT0nS(nombredesensor), fecha_hora FROM tabla_sensor")
 ```
-- [Graficos](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/blob/main/Htdocs%20in%20Arduino/grafico/grafico.php)(https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/blob/main/Htdocs%20in%20Arduino/grafico/grafico_humedad.php)
-En los gráficos de los sensores, se deberán replicar las líneas de códigos que incluyan al nombre de la variable.
+- [Graficos](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/blob/main/Htdocs%20in%20Arduino/grafico/grafico.php): En los gráficos de los sensores, se deberán replicar las líneas de códigos que incluyan al nombre de la variable.
 
 Ejemplo: 
 ```
