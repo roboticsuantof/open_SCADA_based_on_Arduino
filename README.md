@@ -79,7 +79,7 @@ Serial.println(datos[n])
 Evitando ocupar para ambos casos datos[2], dado que, este es ocupado durante la programación para el envio de datos. 
 
 3. Abrir los archivos descargados (2) del apartado "# Programación" e insertar variables para que sean recibidas por la estación de monitoreo.
-- [Control](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino/control): En este archivo solo se deberá replicar el siguiente código:
+- [Control](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/blob/main/Htdocs%20in%20Arduino/control/conexion_arduino.php): En este archivo solo se deberá replicar el siguiente código:
 ```
 $ingresar_dato = $herramienta->ingresar_datos($_GET["F01T01SHum_php", "F02T02STemp_php", - - -, "F0nT0nS(nombredesensor)_php"])
 ```
