@@ -150,7 +150,7 @@ Una vez hecho lo anterior, iniciamos el programa "XAMPP CONTROL PANEL", seguimos
 7. Actualizar página y verificar que la tabla fue creada con nuestras variables
 8. Cerramos navegador y apagamos modulos
 
-## Visualización del programa
+## Monitoreo Data Tiempo Real
 
 Una vez hecho todos los pasos anteriores y realizadas las conexiones fisicas de los arduino, se inicia nuevamente el programa "XAMPP CONTROL PANEL" para poder visualizar el monitoreo de las variables. Para esto, se deben seguir los siguientes pasos:
 
