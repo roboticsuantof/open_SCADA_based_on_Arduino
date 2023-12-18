@@ -6,7 +6,7 @@ El Sistema de Control y Adquisición de Datos (SCADA) implementado para un inver
 
 ***La comunicación entre los Arduinos que tendrán la lectura inicial de los sensores, serán denominados como “Slave”, mientras que, los Arduinos encargados de recibir la información y subirlos a la estación de monitoreo, serán denominados como “Master”.***
 
-# Instalación Programas
+## Instalación Programas
 
 Los siguientes programas se deben descargar e instalar en su última versión desde sus paginas oficiales:
 
@@ -17,14 +17,14 @@ Los siguientes programas se deben descargar e instalar en su última versión de
 3. [IP Advanced Scanner](https://www.advanced-ip-scanner.com/es/): Herramienta que se utiliza para escanear y analizar redes informáticas en busca de dispositivos conectados y para recopilar información detallada sobre estos dispositivos y su configuración de red. Permite realizar la busqueda de las ip disponibles para la programación de arduino.
 
 
-# Programación
+## Programación
 
 En esta fase del sistema, es necesario la configuración de los archivos de programación para su posterior instalación en las carpetas correspondientes, por lo que se deben descargar los siguientes archivos:
 
 1. Arduinos: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
 2. Estación de Monitoreo: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
 
-# Configuraciones
+## Configuraciones
 
 1. Descargar e instalar programa de Arduino IDE.
 2. Abrir los archivos descargados (1) del apartado "# Programación" e insertar variables a medir.
@@ -118,7 +118,7 @@ Ejemplo:
 El código se deberá replicar en su forma completa y sustituyendo el nombre de la variable "F01T01SHum" por las varibles que insertamos anteriormente.
 
 
-# Configuración de Estación de Monitoreo
+## Configuración de Estación de Monitoreo
 
 Una vez se haya descargado e instalado el programa "XAMPP CONTROL PANEL", procederemos con su configuración y nos dirigiremos a su carpeta de origen. En esta, existe una carpeta llamada "htdocs" la cual procederemos a seleccionar y abrir. Una vez dentro, creamos la carperta bajo el nombre "arduino" e insertamos todos los archivos configurados anteriormentes de la sección "# Configuraciones", exceptuando el archivo "Insert SQL in PHP" que ocuparemos más adelante. 
 
@@ -148,7 +148,7 @@ Una vez hecho lo anterior, iniciamos el programa "XAMPP CONTROL PANEL", seguimos
 7. Actualizar página y verificar que la tabla fue creada con nuestras variables
 8. Cerramos navegador y apagamos modulos
 
-# Visualización del programa
+## Visualización del programa
 
 Una vez hecho todos los pasos anteriores y realizadas las conexiones fisicas de los arduino, se inicia nuevamente el programa "XAMPP CONTROL PANEL" para poder visualizar el monitoreo de las variables. Para esto, se deben seguir los siguientes pasos:
 
