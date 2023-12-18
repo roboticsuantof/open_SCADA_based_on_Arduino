@@ -24,11 +24,15 @@ En esta fase del sistema, es necesario la configuración de los archivos de prog
 1. Arduinos: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
 2. Estación de Monitoreo: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
 
-## Configuraciones
+## Configuraciones de programación
 
 1. Descargar e instalar programa de Arduino IDE.
 2. Abrir los archivos descargados (1) del apartado "# Programación" e insertar variables a medir.
-- [“Master”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos. 
+
+### Configuración Programación Arduinos
+
+[“Master”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos.
+
 Ejemplo:
 ```
 F01T01SHum=datos[1];
@@ -118,7 +122,7 @@ Ejemplo:
 El código se deberá replicar en su forma completa y sustituyendo el nombre de la variable "F01T01SHum" por las varibles que insertamos anteriormente.
 
 
-## Configuración de Estación de Monitoreo
+### Configuración Programación Estación de Monitoreo
 
 Una vez se haya descargado e instalado el programa "XAMPP CONTROL PANEL", procederemos con su configuración y nos dirigiremos a su carpeta de origen. En esta, existe una carpeta llamada "htdocs" la cual procederemos a seleccionar y abrir. Una vez dentro, creamos la carperta bajo el nombre "arduino" e insertamos todos los archivos configurados anteriormentes de la sección "# Configuraciones", exceptuando el archivo "Insert SQL in PHP" que ocuparemos más adelante. 
 
