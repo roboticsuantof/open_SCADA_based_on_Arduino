@@ -10,11 +10,11 @@ El Sistema de Control y Adquisición de Datos (SCADA) implementado para un inver
 
 Los siguientes programas se deben descargar e instalar en su última versión desde sus paginas oficiales:
 
-1. Arduino IDE: Se utiliza para la programación de la placa Arduino, actuando como el corazón del sistema al interactuar con los sensores y actuadores instalados en el invernadero. Los sensores capturan datos cruciales como temperatura, humedad, luminosidad, niveles de CO2, entre otros, mientras que los actuadores controlan elementos como sistemas de riego, ventilación y calefacción.
+1. [Arduino IDE](https://www.arduino.cc/en/software): Se utiliza para la programación de la placa Arduino, actuando como el corazón del sistema al interactuar con los sensores y actuadores instalados en el invernadero. Los sensores capturan datos cruciales como temperatura, humedad, luminosidad, niveles de CO2, entre otros, mientras que los actuadores controlan elementos como sistemas de riego, ventilación y calefacción.
 
-2. XAMPP Control Panel: Actúa como el repositorio central de datos, almacenando la información adquirida por los sensores y generando un historial completo de las condiciones del invernadero. La estructura de la base de datos se ha diseñado para permitir consultas eficientes, análisis de tendencias y generación de informes.
+2. [XAMPP Control Panel](https://www.apachefriends.org/es/download.html): Actúa como el repositorio central de datos, almacenando la información adquirida por los sensores y generando un historial completo de las condiciones del invernadero. La estructura de la base de datos se ha diseñado para permitir consultas eficientes, análisis de tendencias y generación de informes.
 
-3. IP Advanced Scanner: Herramienta que se utiliza para escanear y analizar redes informáticas en busca de dispositivos conectados y para recopilar información detallada sobre estos dispositivos y su configuración de red. Permite realizar la busqueda de las ip disponibles para la programación de arduino.
+3. [IP Advanced Scanner](https://www.advanced-ip-scanner.com/es/): Herramienta que se utiliza para escanear y analizar redes informáticas en busca de dispositivos conectados y para recopilar información detallada sobre estos dispositivos y su configuración de red. Permite realizar la busqueda de las ip disponibles para la programación de arduino.
 
 
 # Programación
