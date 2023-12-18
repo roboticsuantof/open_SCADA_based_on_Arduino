@@ -1,9 +1,8 @@
 # open_SCADA_based_on_Arduino
 El Sistema de Control y Adquisición de Datos (SCADA) implementado para un invernadero se elige como un entorno inteligente y automatizado, integrando tecnologías como PHP, Arduino IDE y una base de datos en XAMPP. Este sistema persigue mediante la estación de monitoreo, visualizar las variables constantemente.
 
-- Gif mostrando datos enviados y recibidos por arduino
-- Gif mostrando la base de datos actualizandose
-- Gif mostrando el apartado de la grafica y descarga (PDF, Excel)
+![MonitoreoTiempoReal](https://i.imgur.com/udldEcx.png)
+![GraficoyDescargadeDatos](https://i.imgur.com/AgYPiO6.png)
 
 ***La comunicación entre los Arduinos que tendrán la lectura inicial de los sensores, serán denominados como “Slave”, mientras que, los Arduinos encargados de recibir la información y subirlos a la estación de monitoreo, serán denominados como “Master”.***
 
