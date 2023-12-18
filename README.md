@@ -21,8 +21,8 @@ Los siguientes programas se deben descargar e instalar en su última versión de
 
 En esta fase del sistema, es necesario la configuración de los archivos de programación para su posterior instalación en las carpetas correspondientes, por lo que se deben descargar los siguientes archivos:
 
-1. Arduino: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
-2. Xampp: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
+1. Arduinos: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
+2. Estación de Monitoreo: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
 
 # Configuraciones
 
