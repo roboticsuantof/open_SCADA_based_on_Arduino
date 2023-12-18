@@ -17,21 +17,19 @@ Los siguientes programas se deben descargar e instalar en su última versión de
 3. [IP Advanced Scanner](https://www.advanced-ip-scanner.com/es/): Herramienta que se utiliza para escanear y analizar redes informáticas en busca de dispositivos conectados y para recopilar información detallada sobre estos dispositivos y su configuración de red. Permite realizar la busqueda de las ip disponibles para la programación de arduino.
 
 
-## Programación
+## Configuración y Programación
 
 En esta fase del sistema, es necesario la configuración de los archivos de programación para su posterior instalación en las carpetas correspondientes, por lo que se deben descargar los siguientes archivos:
 
 1. Arduinos: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica, branch: Main)
 2. Estación de Monitoreo: (https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Htdocs%20in%20Arduino, branch: Main)
 
-## Configuraciones de programación
+### Configuración Programación Arduinos
 
 1. Descargar e instalar programa de Arduino IDE.
 2. Abrir los archivos descargados (1) del apartado "# Programación" e insertar variables a medir.
 
-### Configuración Programación Arduinos
-
-[“Master”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos.
+- [“Master”](https://github.com/roboticsuantof/open_SCADA_based_on_Arduino/tree/main/Arduino%20NRF24L01%20-%20Comunicacion%20Inalambrica/MaestroARD): Usar como referencia "F01T01SHum", sólo deberás replicar este codigo asignando nuevo nombre y datos recibidos.
 
 Ejemplo:
 ```
